@@ -1,0 +1,67 @@
+OOP Project
+
+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
+
+Laundromat
+
+Student operations:
+
+S
+<prompt comes up asking for name, ID No., phone number, etc.>
+<user enters details>
+<prompt showing various wash plans with their codes>
+<user enters desired code>
+<registration is complete and user is shown their details including allotted day of dropping>
+<if the user is already registered, show the appropriate message>
+
+D
+<ID No.> 2 <Date> Monday (2kg of laundry dropped on <Date> which is a Monday)
+<it is checked if the user is authorized to drop laundry on Monday according to their hostel. If not, the drop is cancelled and the user is shown an error message> 
+<it is also checked if the user has taken the appropriate wash plan to drop 2kg of laundry every week. If the amount exceeds the maximum amount, they are shown extra charges incurred>
+<if everything goes fine, the user is shown success message with details of when the laundry will be delivered>
+
+C
+<ID No.> (the user is checking the status of the last dropped laundry>
+<the user is shown status accordingly like in wash, in drying, in ironing, etc.>
+<if the user has not dropped laundry, they are shown an appropriate message>
+
+
+
+B
+<ID No.> (user with given ID no. is checking their expenses and laundry details uptil now)
+<show a list of days when laundry was dropped and their statuses, an price per laundry including any extra charged>
+
+R
+<ID No.> <Date> (user with ID no. receives back the laundry dropped on <Date>>
+<if the specific drop has already been marked as “On Delivery” in the admin’s system, only then should this operation return a success message and also mark the drop as “Delivered” in the admin’s system. Otherwise show an error message to the user appropriately>
+
+
+Admin Operations:
+
+L1
+<Admin username> <admin password> (admin logins to the system using these credentials)
+<if username and password are correct, show welcome message. Else, show error message>
+
+The below operations should be allowed only if login has been completed by the above operation.
+
+AC
+<prints details of all registered students>
+
+T
+<ID No.> <Date> (checking status of laundry dropped by particular student on <Date>)
+<Shows the appropriate status>
+
+U
+<ID No.> <Date> <Status> (update  status of laundry dropped by particular student on <Date> to <Status>)
+
+SA
+<Hostel> <Day> <Time> (schedule delivery time of laundries to hostel)
+
+RA
+<See total revenue, grouped by hostel>
+
+L2
+<logs out the admin>
+<should show success message only if admin has logged in before. Else show error message>
+
+
