@@ -1,0 +1,9 @@
+switch(ch)
+ 
+
+
+Input ID
+if ID belongs to database -> user home page
+else -> registration page -> user home page
+
+ 
