@@ -1,5 +1,11 @@
 switch(ch)
- 
+ case S:
+
+ case D:
+
+ case C:
+
+ case B:
 
 
 Input ID
